@@ -1,156 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q&A Platform</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <h1 class="logo">Home</h1>
-            <div class="header-actions">
-                <button class="icon-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.35-4.35"></path>
-                    </svg>
-                </button>
-                <button class="icon-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                        <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>query-icon-canvas</title>
+    <meta name="description" content="Lovable Generated Project" />
+    <meta name="author" content="Lovable" />
 
-    <!-- Main Content -->
-    <main class="main">
-        <div class="container">
-            <!-- Category Tabs -->
-            <div class="tabs">
-                <button class="tab active">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                    </svg>
-                    Editor's Picks
-                </button>
-                <button class="tab">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                        <polyline points="17 6 23 6 23 12"></polyline>
-                    </svg>
-                    Daily
-                </button>
-                <button class="tab">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                        <polyline points="17 6 23 6 23 12"></polyline>
-                    </svg>
-                    Trending
-                </button>
-                <button class="tab">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                    </svg>
-                    Tales
-                </button>
-            </div>
+    <meta property="og:title" content="query-icon-canvas" />
+    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-            <!-- Posts Feed -->
-            <div class="posts">
-                <article class="post post-technology">
-                    <div class="post-header">
-                        <div class="author">
-                            <div class="avatar">AI</div>
-                            <span class="author-name">AI</span>
-                        </div>
-                        <span class="category">Technology</span>
-                    </div>
-                    <h3 class="post-title">Beyond the political aspects, what were some of the key technological breakthroughs driven by the Space Race?</h3>
-                    <p class="post-preview">The Space Race spurred remarkable technological advancements far beyond just rockets and spacecraft. The</p>
-                </article>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-                <article class="post post-history">
-                    <div class="post-header">
-                        <div class="author">
-                            <div class="avatar">AI</div>
-                            <span class="author-name">AI</span>
-                        </div>
-                        <span class="category">History</span>
-                    </div>
-                    <h3 class="post-title">What was the significance of the Magna Carta in the development of English law and governance?</h3>
-                    <p class="post-preview">The Magna Carta, signed in 1215 by King John of England, is a landmark document in the development of English law</p>
-                </article>
-
-                <article class="post post-finance">
-                    <div class="post-header">
-                        <div class="author">
-                            <div class="avatar">S</div>
-                            <span class="author-name">Sankalp Saxena</span>
-                        </div>
-                        <span class="category">Finance</span>
-                    </div>
-                    <h3 class="post-title">Compare the performance of ₹100 each invested in Nifty 50, Nifty Midcap, Nifty Bank, Nifty Small Cap, Gold, and Silver since 2000</h3>
-                    <p class="post-preview">Since 2000, an initial ₹100 investment in Nifty Small Cap would have yielded the highest returns, growing to over</p>
-                </article>
-
-                <article class="post post-story">
-                    <div class="post-header">
-                        <div class="author">
-                            <div class="avatar">H</div>
-                            <span class="author-name">Hemant</span>
-                        </div>
-                        <span class="category">Story</span>
-                    </div>
-                    <h3 class="post-title">The Clockmaker's Secret</h3>
-                    <p class="post-preview">In a small, forgotten village nestled between misty hills, there lived an old clockmaker named Elior. His shop, tucked</p>
-                </article>
-            </div>
-        </div>
-    </main>
-
-    <!-- Floating Action Button -->
-    <button class="fab">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="12" y1="5" x2="12" y2="19"></line>
-            <line x1="5" y1="12" x2="19" y2="12"></line>
-        </svg>
-    </button>
-
-    <!-- Bottom Navigation -->
-    <nav class="bottom-nav">
-        <div class="container">
-            <button class="nav-btn active">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                </svg>
-            </button>
-            <button class="nav-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                </svg>
-            </button>
-            <button class="nav-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="12" y1="5" x2="12" y2="19"></line>
-                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                </svg>
-            </button>
-            <button class="nav-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-            </button>
-        </div>
-    </nav>
-</body>
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
